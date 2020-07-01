@@ -270,3 +270,9 @@ window.view = {
 	}
 }
 window.onload = function() { view.init() }
+function off(){
+	document.getElementById("userInput").disabled = true;
+}
+function on(){
+	document.getElementById("userInput").disabled = false;
+}
